@@ -1,0 +1,124 @@
+/*Mon body*/
+/*C'est le debut de mon header + l'image de background + barre de recherche*/
+body{
+
+    margin: 0;
+    padding: 0;
+    background: rgb(210,135,178);
+    background: linear-gradient(180deg, rgba(210,135,178,1) 10%, rgba(220,29,253,1) 35%, rgba(54,124,172,1) 110%);
+    box-sizing: content-box;
+    width: 100vw;
+    background-attachment: fixed;
+}
+
+
+/*Mon header*/
+
+header{
+
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+
+}
+
+h2{
+
+    text-align: center;
+}
+
+/*Mon contenu*/
+
+.img{
+
+    width: 300px;
+    height: 300px;
+    background: black;
+
+}
+.imgbio{
+
+    width: 150px;
+    height: 150px;
+    min-width: 150px;
+    min-height: 150px;
+    margin: 10px;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.albums{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.biore{
+
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.artistes{
+
+    margin: 20px;
+    text-align: center;
+}
+
+.bios{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    padding: 10px
+}
+
+.artistebio{
+
+    display: flex;
+    width: 100%;
+}
+
+h3{
+
+    text-align: center;
+}
+
+/*Le footer*/
+
+.footerlink{
+
+    /*width: 100px;
+    height: 100px;*/
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.twitterlink{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+li{
+    list-style-type: none;
+}
+
+/*j'ai utilisé cette pratique car je n'arrivais pas à le faire normalement (je sais que c'est mal, déso)*/
+
+.logo{
+    width: 150px;
+    height: 100px;
+}
